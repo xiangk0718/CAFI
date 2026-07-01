@@ -19,7 +19,7 @@ CUDA_VISIBLE_DEVICES=${GPUS} python -m torch.distributed.launch \
   --dataset rrsisd \
   --model lavt_catt \
   --model_id cafi_rmsin_rrsisd \
-  --batch-size 2 \
+  --batch-size 4 \
   --lr 0.00006 \
   --wd 1e-2 \
   --swin_type base \
