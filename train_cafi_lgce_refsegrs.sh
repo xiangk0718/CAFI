@@ -26,7 +26,7 @@ CUDA_VISIBLE_DEVICES=${GPUS} python -m torch.distributed.launch \
   --pretrained_swin_weights ./pretrained_weights/swin_base_patch4_window12_384_22k.pth \
   --ck_bert ./pretrained_weights/bert \
   --bert_tokenizer ./pretrained_weights/bert \
-  --epochs 60 \
+  --epochs 80 \
   --img_size 480 \
   --window12 \
   --workers 0 \
