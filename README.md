@@ -156,8 +156,8 @@ CAFI/
 This repository builds on and adapts code from the following projects:
 
 - [LAVT](https://github.com/yz93/LAVT-RIS)
-- RRSIS / RefSegRS
-- RMSIN
+- [RRSIS / RefSegRS](https://github.com/zhu-xlab/rrsis)
+- [RMSIN](https://github.com/Lsan2401/RMSIN)
 
 We thank the authors of these repositories and datasets for making their work
 available to the community.
