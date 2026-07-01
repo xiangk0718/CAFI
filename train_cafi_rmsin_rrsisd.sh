@@ -20,7 +20,7 @@ CUDA_VISIBLE_DEVICES=${GPUS} python -m torch.distributed.launch \
   --model lavt_catt \
   --model_id cafi_rmsin_rrsisd \
   --batch-size 2 \
-  --lr 0.00003 \
+  --lr 0.00006 \
   --wd 1e-2 \
   --swin_type base \
   --pretrained_swin_weights ./pretrained_weights/swin_base_patch4_window12_384_22k.pth \
