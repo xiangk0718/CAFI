@@ -3,7 +3,7 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-GPUS=${GPUS:-0,1,2,3}
+GPUS=${GPUS:-0,1}
 IFS=',' read -r -a GPU_ARRAY <<< "${GPUS}"
 NPROC=${NPROC:-${#GPU_ARRAY[@]}}
 MASTER_PORT=${MASTER_PORT:-12346}
@@ -26,7 +26,7 @@ CUDA_VISIBLE_DEVICES=${GPUS} python -m torch.distributed.launch \
   --pretrained_swin_weights ./pretrained_weights/swin_base_patch4_window12_384_22k.pth \
   --ck_bert ./pretrained_weights/bert \
   --bert_tokenizer ./pretrained_weights/bert \
-  --epochs 40 \
+  --epochs 60 \
   --img_size 480 \
   --window12 \
   --workers 0 \
