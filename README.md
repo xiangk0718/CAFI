@@ -81,7 +81,7 @@ GPUS=0 ./train_cafi_rmsin_rrsisd.sh
 Arguments can be appended to either script, for example:
 
 ```bash
-GPUS=0,1 NPROC=2 ./train_cafi_lgce_refsegrs.sh --model_id my_run --epochs 80
+GPUS=0,1 NPROC=2 ./train_cafi_lgce_refsegrs.sh --model_id my_run --epochs 60
 ```
 
 Equivalent raw command:
@@ -95,7 +95,7 @@ python -m torch.distributed.launch --nproc_per_node 1 train.py \
   --pretrained_swin_weights ./pretrained_weights/swin_base_patch4_window12_384_22k.pth \
   --ck_bert ./pretrained_weights/bert \
   --bert_tokenizer ./pretrained_weights/bert \
-  --epochs 40 \
+  --epochs 60 \
   --img_size 480 \
   --window12
 ```
