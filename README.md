@@ -138,11 +138,11 @@ Place external assets locally before running:
 - trained checkpoints under `checkpoints/`
 - REFER-style data under `refer/` or configure paths in dataset files.
 
-## Pretrained Weights
+## Example weights
 
 Google Drive: **TODO: paste checkpoint / pretrained-weight link here**.
 
-Expected layout after download:
+Expected layout pretrained weights after download:
 
 ```text
 CAFI/
