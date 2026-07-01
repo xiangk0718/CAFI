@@ -14,7 +14,6 @@ CAFI/
   train_cafi_rmsin_rrsisd.sh
   test.py                    # unified test entry
   eval_interpretability.py   # CAFI interpretability metrics
-  export_pwam_att_maps.py    # attention-map export helper
   bert/ data/ loss/          # shared code
   variants/
     lgce/                    # CAFI-LGCE model code
