@@ -13,7 +13,6 @@ CAFI/
   train_cafi_lgce_refsegrs.sh
   train_cafi_rmsin_rrsisd.sh
   test.py                    # unified test entry
-  eval_interpretability.py   # CAFI interpretability metrics
   bert/ data/ loss/          # shared code
   variants/
     lgce/                    # CAFI-LGCE model code
