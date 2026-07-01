@@ -4,13 +4,6 @@ Code for **"CAFI: Counterfactual Alignment and Front-Door Intervention Training 
 
 Unified codebase for training and evaluating two CAFI variants:
 
-- `CAFI-LGCE`: LGCE-based CAFI model, derived from `rrsis_catt`
-  (also referred to as CAFI-GCE in scripts/notes).
-- `CAFI-RMSIN`: RMSIN-based CAFI model, derived from `RMSIN`.
-
-The original `rrsis_catt/` and `RMSIN/` directories are not modified. This
-folder contains an isolated copy of the required source code.
-
 ## Layout
 
 ```text
