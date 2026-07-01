@@ -45,6 +45,9 @@ Use `--rrsis_dataset`:
 
 For `refsegrs`, `data.binewdataset_refer_bert` is used. For `rrsisd`,
 `data.bidataset_refer_bert` is used.
+We provide a version of the counterfactual text samples used during training and inference (**TODO: paste data link here**).
+Place negative_phrase_train.txt, negative_phrase_val.txt, and negative_phrase_test.txt in the RefSegRS/ directory, and place the rrsisd_nega/ directory at the same level as rrsisd/.
+
 
 ## Swapped AUG Filtering
 
