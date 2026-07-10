@@ -140,7 +140,7 @@ Place external assets locally before running:
 
 ## Example weights
 
-Google Drive: **TODO: paste checkpoint / pretrained-weight link here**.
+Google Drive: [checkpoint](https://drive.google.com/drive/folders/1fD6Q627QLPct-XEhSfAx1UpWgo6FpQcZ?usp=sharing).
 
 Expected layout pretrained weights after download:
 
